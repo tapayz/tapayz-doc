@@ -1,0 +1,8 @@
+접속정보 공유드립니다. 12시에 뵐게요
+* Backoffice
+ url : https://console.crypted-pay.com/
+ id : igmeta
+ pw : 1234
+
+* Doc.
+ url : https://doc.crypted-pay.com/

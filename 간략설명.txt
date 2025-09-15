@@ -1,0 +1,33 @@
+~/invoice/issue api 를 이용해서 인보이스 발행을 요청하고 응답값으로 전달되는 결제 창 url 을 이용해서 결제를 받으시면 됩니다.
+
+NowPayments API를 기반으로 한 새로운 결제솔루션 개발 문서를 작성했습니다. Crypted-Pay 문서 구조를 벤치마킹하되, NowPayments의 실제 특징을 반영하여 구성했습니다.
+
+주요 특징:
+🔧 NowPayments API 활용
+
+150개 이상 암호화폐 지원
+비수탁형(Non-Custodial) 아키텍처
+0.5% 기본 수수료 + 환전 시 0.5% 추가
+IPN(Instant Payment Notification) 실시간 콜백
+
+📋 문서 구성 (Crypted-Pay 구조 참고)
+
+Overview: 서비스 소개 및 차별화 요소
+Custom Payment Flow: NowPayments API 기반 결제 흐름
+Authentication: API Key + JWT 인증 시스템
+IPN Callbacks: 실시간 결제 상태 알림
+Wallet Management: 비수탁형 지갑 관리
+Currencies: 다중 암호화폐 지원
+Confirmations: 네트워크별 컨펌 정책
+Customers: 고객 관리 시스템
+Transactions: 거래 상태 및 분석
+API Integration: 실제 연동 가이드
+
+💡 핵심 차별화
+
+Crypted-Pay의 구조적 완성도 + NowPayments의 기술적 안정성
+한국 시장 특화 (KRW 지원, 한국어 문서)
+통합 관리 플랫폼 (고객 관리, 분석, 대시보드)
+개발자 친화적 환경 (SDK, 플러그인, 샌드박스)
+
+이 문서를 바탕으로 NowPayments의 강력한 API 엔진을 활용하면서도, 더 나은 사용자 경험과 관리 기능을 제공하는 결제솔루션을 개발하면 좋겠습니다.
